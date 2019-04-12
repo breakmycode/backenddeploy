@@ -142,6 +142,29 @@ we will see that connection will time out and heroku will not load anything
 
 
 
+after this , we add and commit to the github
+
+
+Lenovo@DESKTOP-ED408QG MINGW64 /e/projects/CBonlineWebD/Webinars/web18 (master)
+$ git add -A
+
+Lenovo@DESKTOP-ED408QG MINGW64 /e/projects/CBonlineWebD/Webinars/web18 (master)
+$ git commit -sm "using port from environment if available
+"
+[master 999945b] using port from environment if available
+ 2 files changed, 49 insertions(+), 2 deletions(-)
+
+
+
+
+
+ -==>
+ now 
+-- if different version of node.js is causing some problems , you can create inside 
+package.json called engines (see img engineim)
+so here i am sing node 9 and npm 5
+
+
 
 
 
