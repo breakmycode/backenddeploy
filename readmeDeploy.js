@@ -99,8 +99,51 @@ ans
   or ruby , php, java ---   we can see supports in heroku sites ..
 
 
+--make one repo 
+-- login the heroku
+ connect to the heroku   
+-- heroku apps:create webi18
+(this webi 18 is just the simply the name i hacve given)
+it displayed me this 
+--https://webi18.herokuapp.com/ | https://git.heroku.com/webi18.git
 
-  
+
+now type thi command:
+    $ git remote
+heroku
+origin
+
+(it shows us two remotes now )
+
+
+
+
+-- git push heroku master
+(we will see that it doesnt run, we will also see that what changes do wehave to make)
+
+-- heroku logs 
+webserver startes and all the things we see that sare written 
+
+
+
+
+-- now goto  https://webi18.herokuapp.com/ 
+we will see that connection will time out and heroku will not load anything
+
+-- this happens because heroku does not wants us to load ur apps on any custom port u want to
+-- heroku provides its own port for its security reasons..
+-- it allocates a port and we have to use that 
+
+
+
+-- now goto Server.js and do some changes
+/IS PORT ENV VARIABLE IS SET  i will take its value , else i wil take  3334,
+// also in app.Listen we will use SERVER_PORT
+
+
+
+
+
 
 
 
